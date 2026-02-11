@@ -18,9 +18,12 @@
     <p>Já me livrei da maldição!</p>
     <!--JS-->
     <script>
-        window.alert('Minha primeira mensagem!');
-        window.comfirm('Está gostando de JS?');
-        window.prompt('Qual é o seu nome?');
+        var num1 = Number(window.prompt('Digite um número:')); //Vai perguntar o número
+        var num2 = Number(window.prompt('Digite outro número:')); //Vai perguntar o número
+        var soma = num1 + num2;
+        window.alert(`A soma entre ${num1} e ${num2} é igual a ${soma}`); // Template String
+        //(Number + numero) = soma
+        //(String + string) = concatenação
     </script>
 </body>
 </html>
